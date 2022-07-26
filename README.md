@@ -4,7 +4,8 @@
 <p>To view application just open it in your editor and open with the browser</p>
 
 <p>Preview:</p>
-![D2_Page](https://user-images.githubusercontent.com/54690941/181080837-bf36ac2d-231c-4460-b3cd-18177ff541f3.png)
+
+![D2_Page](https://user-images.githubusercontent.com/54690941/181081387-a94893e1-d080-49f9-81a8-21c90080269b.png)
 
 ============================================================
 
