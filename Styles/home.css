@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('/Images/Thumb1.jpg')
+    no-repeat center center / cover;
+    position: absolute;
+    
+    width: calc(100vh + 60%);
+    height: calc(100vw + -95%);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading_text {
+    font-size: 90px;
+    color: #FFFF;
+}

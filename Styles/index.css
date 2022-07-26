@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Nunito+Sans:ital,wght@0,300;1,200&family=Nunito:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,400;0,600;1,300;1,400;1,500;1,600&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.body_container {
+    background-image: url('/Images/Destiny2_Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.nav_logo img {
+    width: 18%;
+    position: absolute;
+    margin: 15px;
+    top: -5px;
+}
+
+.nav_logo {
+    background-color: rgb(9, 29, 66);
+    width: 85%;
+    height: 85px;
+    border: 1px solid rgb(24, 39, 179);
+    box-shadow: 5px 10px 15px rgb(3, 1, 65);
+}
+
+.classicaçao_idade img {
+    width: 5%;
+    margin-left: 75rem;
+    position: absolute;
+    top: 15px;
+}
+
+.text_promotion p {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-left: 55rem;
+    margin-top: -2.6rem;
+}
+
+#timer {
+    color: #FFF;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-left: -14rem;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.cont_text h2{
+    color: #FFF;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 4.5rem;
+    margin-left: -6.5rem;
+}
+
+.contador_container {
+    width: 25%;
+    height: 95px;
+    background-color: rgb(9, 29, 66);
+    border: 1px solid rgb(24, 39, 179);
+    box-shadow: 5px 10px 15px rgb(3, 1, 65);
+    opacity: 90%;
+    display: flex;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    border-radius: 8px;
+}
+
+.contador_container #text {
+    color: rgb(230, 189, 9);
+    display: flex;
+    margin-left: 50px;
+    margin-top: 38px;
+}
+
+.cards_container {
+    background-color: rgb(9, 29, 66);
+    border: 1px solid rgb(24, 39, 179);
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: 10rem;
+    margin-top: 25px;
+    opacity: 90%;
+    box-shadow: 5px 10px 15px rgb(3, 1, 65);
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 35px;
+    cursor: pointer;
+    /*
+    width: 25%;
+    margin-left: 55px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 25px;
+    padding-bottom: 1rem;
+    */
+}
+
+.grid_container img {
+    text-align: center;
+    width: 85%;  
+}
+
+.grid_container img:hover {
+    transform: translateY(-15px);
+    transition: all 0.5s ease;
+    border: 2px solid #FFF;
+}
+
+.grid_container h1 {
+    background-color: rgb(230, 172, 13);
+    color: #FFF;
+    font-size: 20px;
+}
+
+h1 {
+    width: 85%;
+    position: relative;
+    top: -33px;
+}
+
+h1:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s ease;
+}
+
+.direitos p {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 15px;
+   
+    width: 65%;
+    margin-left: 15rem;
+}
+
+@media (max-width: 426px){
+    .nav_container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 426px){
+    .cards_container {
+        margin: 20px 0 10px 0;
+        width: calc(100% / 2 - 10px);
+    }
+}
+
