@@ -1,7 +1,8 @@
 🉐Instrucions: 
 
-<p>Site made with HTML5 CSS & JS </p>
+<p>Site made with HTML5 CSS & JS</p>
 <p>To view application just open it in your editor and open with the browser</p>
+==============================================================
 
 <p>Preview:</p>
 
